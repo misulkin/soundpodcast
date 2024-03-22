@@ -1,0 +1,81 @@
+.backform_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 1);
+    margin: 2% 10%;
+    padding: 70px;
+}
+.backform_textform{
+    
+}
+.backform_pretext{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(17, 141, 168, 1);
+}
+.backform_sub{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 3px;
+    color: white;
+}
+.backform_form {
+    display: flex;
+    flex-direction: column;
+
+    input[type="text"] {
+        width: 522px;
+        height: 82px;
+        border-radius: 6px;
+        padding-left: 10px;
+        border: 1px solid rgba(25, 25, 25, 1);
+        background: rgba(25, 25, 25, 1);
+        font-family: 'DM Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        margin-bottom: 30px;
+        color: rgba(255, 255, 255, 0.8);
+
+    }
+    input[type="email"] {
+        width: 522px;
+        height: 82px;
+        border-radius: 6px;
+        padding-left: 10px;
+        border: 1px solid rgba(25, 25, 25, 1);
+        background: rgba(25, 25, 25, 1);
+        font-family: 'DM Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+        margin-bottom: 30px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .backform_submitbut {
+        width: 87px;
+        height: 48px;
+        border-radius: 6px;
+        background: rgba(17, 141, 168, 1);
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        transition-duration: 0.7s;
+    }
+    .backform_submitbut:hover {
+        background-color: rgba(255, 255, 255, 0.7);
+        color: rgb(6, 54, 65);
+    }
+}
+

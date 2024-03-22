@@ -1,0 +1,47 @@
+.review{
+    margin: 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.review_block{
+    width: 385px;
+    height: 340px;
+    border-radius: 32px;
+    background: rgba(0, 0, 0, 1);
+    margin: 20px 0;
+}
+
+
+.star-five {
+    display: flex;
+    flex-direction: row;
+    padding: 60px 40px 19px 40px;
+}
+
+.star-five_svg {
+    fill: #f2e600;
+    width: 20px;
+    padding-right: 2px;
+}
+.review_text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    width: 300px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 40px;
+}
+.review_autor {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 19px 0;
+    margin-left: 40px;
+}

@@ -1,0 +1,70 @@
+.autorform {
+    padding: 2% 10%;
+}
+.autor {
+    display: flex;
+    flex-direction: row;
+    font-family: 'DM Sans', sans-serif;
+    align-items: center;
+}
+.autor_discription{
+    margin-right: 40px;
+    
+}
+.autor_follow{
+width: 112px;
+height: 112px;
+border-radius: 50%;
+background-color: #118DA8;
+display: flex;
+align-items: center;
+justify-content: center;
+transition-duration: 0.7s;
+    span {
+        display: block;
+        color: white;
+        font-size: 80px;
+        margin-bottom: 5px;
+        transition-duration: 0.7s;
+        }
+}
+
+.autor_follow:hover{
+    color: rgba(17, 141, 168, 1);
+    background-color: rgba(255, 255, 255, 0.7);
+        span {
+        color: rgb(6, 54, 65);
+        }
+}
+.autor_interlude {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(17, 141, 168, 1);
+    margin:  10px 0;
+}
+.autor_name {
+    font-family: "DM Sans", sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 3px;
+    color: white;
+}
+.autor_text {
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+}
+.autor_photo {
+    img {
+        width: 650px;
+        height: 743px;
+    }
+}

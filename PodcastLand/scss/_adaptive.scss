@@ -1,0 +1,212 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+
+
+
+
+
+@media only screen 
+
+and (max-device-width : 800px) {
+ .header_nav {
+    display: none;
+ }
+ .episodes_head {
+       flex-direction: column;
+    }
+}
+
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (max-device-width : 1050px) {
+    .block {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0;
+    }
+    .block_right{
+    margin: 0;}
+    .block_links { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    }
+    .autor {
+        flex-direction: column-reverse;
+    }
+    .autor_discription{
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        :nth-child(1) {
+            order :2;
+        }
+        :nth-child(2) {
+            order :1;
+        }
+    }
+    .episodes {
+        padding: 40px;
+        }
+    .episodes_block {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .episodes_text{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        :nth-child(1) {
+            margin-bottom: 5px;
+        }
+        :nth-child(2) {
+            margin-bottom: 5px;
+        }
+    }
+    .episodes_head {
+        margin: 30px 0;
+        align-items: center;
+        button {
+        margin: 0;
+        }
+    }
+
+    .backform_wrap {
+        flex-direction: column;
+        align-items: center;
+        .backform_form {
+            display: flex;
+        }
+        .backform_submitbut {
+            margin: 0 auto;
+            width: 65%;
+        }
+    }
+    .footer_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_nav {
+        justify-content: space-around;
+        text-align: center;
+        margin: 20px 0;
+        .footer_list {
+            flex-basis: 50%;
+        }
+    }
+ }
+
+@media only screen 
+
+and (max-device-width : 670px) {
+    .backform_form{
+    input[type="email"] {
+        width: 200px;
+    }
+    input[type="text"] {
+    width: 200px;
+    }
+    }
+    .block_left{
+        img {
+        width: 100%;
+        height: auto;
+        }
+    }
+    .review_block {
+    width: 100%;
+    }
+    .autor_photo {
+        img {
+            width: 100%;
+            height: auto;
+            } 
+    }
+    .autorform {
+    padding: 0;
+    }
+}
+
+
+ @media only screen 
+
+and (max-device-width : 670px) {
+
+    .episodes {
+    padding: 0;
+}
+.episodes_block{
+    padding: 0;
+    img{
+    width: 100%;
+    height: auto;
+    }
+    }
+.episodes_text {
+    padding: 0;
+}
+.autor_discription{
+margin: 0;
+}
+.autor_follow {
+    margin: 0 auto;
+}
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.backform_wrap{
+    margin: 40px 0;
+    padding: 12px;
+}
+.backform_sub{
+    margin-bottom: 10px;
+}
+.backform_pretext{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(17, 141, 168, 1);
+}
+.backform_sub{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 2px;
+    color: white;
+}
+.review_block{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+
+div,p {
+    margin: 0;
+    padding: 0;
+}
+}
+.review{
+    margin: 0;
+}
+.episodes_predis {   
+    font-size: 42px !important;
+    font-weight: 400 !important;
+    line-height: 42px !important;
+    letter-spacing: 2px !important;
+    text-align: center !important;
+    }
+.episodes_dis {
+    text-align: center !important;
+}
+}
+/* Styles */
